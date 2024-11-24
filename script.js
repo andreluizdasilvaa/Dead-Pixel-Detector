@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     var num = 0;
     bd.addEventListener("click", () => {
+        document.querySelector('h1').style.display = 'none'
         document.documentElement.requestFullscreen()
         if (num > 5) {
             num = 0;
